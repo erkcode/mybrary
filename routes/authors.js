@@ -39,17 +39,6 @@ router.post('/', async (req, res) => {
       errorMessage: 'Something went wrong. So sorry.'
     })
   }
-  // author.save((err, newAuthor) => {
-  //   if (err) {
-  //     res.render('authors/new', {
-  //       author: author,
-  //       errorMessage: 'Something went wrong. So sorry.'
-  //     })
-  //   } else {
-  //     // res.redirect(´authors/${newAuthor.id}´)
-  //     res.redirect('authors')
-  //   }
-  // })
 })
 
 module.exports = router
